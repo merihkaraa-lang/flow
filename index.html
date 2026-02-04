@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FLOW – Süper İşletme Platformu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">FLOW</div>
+        <div class="nav-links">
+          <a href="#moduller">Modüller</a>
+          <a href="#roller">Roller</a>
+          <a href="#ekranlar">Ekranlar</a>
+          <a href="#paketler">Paketler</a>
+          <a href="#demo">Demo Akış</a>
+        </div>
+        <button class="cta">Demo Talep Et</button>
+      </nav>
+      <div class="hero-content">
+        <div>
+          <span class="pill">SMMM + İşletme + Çalışan + Kurye</span>
+          <h1>Vergi, SGK ve gider süreçleri tek platformda.</h1>
+          <p>
+            FLOW; bildirim, evrak ve ödeme süreçlerini tek bir merkezde toplar. Çoklu
+            firma yönetimi, rol bazlı erişim ve güvenli WebView yönlendirmeleri ile
+            işletmenizi hızlandırır.
+          </p>
+          <div class="hero-actions">
+            <button class="primary">Ücretsiz Tanıtım</button>
+            <button class="ghost">Teklif İsteyin</button>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <strong>Multi-tenant</strong>
+              <span>Her kayıt firma bazlı ayrışır.</span>
+            </div>
+            <div>
+              <strong>Güvenli WebView</strong>
+              <span>GİB/SGK allow-list ile.</span>
+            </div>
+            <div>
+              <strong>Audit Log</strong>
+              <span>Tüm kritik aksiyonlar kayıt altında.</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Günün Özeti</h3>
+          <ul>
+            <li>
+              <span>KDV Tahakkuk</span>
+              <span>Yeni</span>
+            </li>
+            <li>
+              <span>SGK Ödemesi</span>
+              <span>Ödeme Bekliyor</span>
+            </li>
+            <li>
+              <span>Kurye Yakıt</span>
+              <span>Onaylandı</span>
+            </li>
+          </ul>
+          <div class="card-footer">
+            <p>Tarih: 18.09.2026</p>
+            <button>Bildirimleri Gör</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="roller" class="section">
+      <div class="section-header">
+        <h2>Roller ve Yetki Matrisi</h2>
+        <p>SMMM yalnızca bildirir; ödeme ve kapanış işletme tarafındadır.</p>
+      </div>
+      <div class="grid three">
+        <div class="card">
+          <h3>SMMM</h3>
+          <ul>
+            <li>Firma oluşturur/düzenler</li>
+            <li>Bildirimi oluşturur ve gönderir</li>
+            <li>Evrak yükler</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>İşletme Sahibi/Yetkili</h3>
+          <ul>
+            <li>Bildirimi onaylar</li>
+            <li>Ödeme ekranını açar</li>
+            <li>“Ödendi” kapanışı yapar</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Çalışan / Kurye</h3>
+          <ul>
+            <li>Masraf/avans/mesai talebi açar</li>
+            <li>Fiş/fatura yükler</li>
+            <li>Durumları takip eder</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="moduller" class="section alt">
+      <div class="section-header">
+        <h2>MVP Modülleri</h2>
+        <p>Bildirim merkezi, evrak kütüphanesi ve talep akışları tek platformda.</p>
+      </div>
+      <div class="grid three">
+        <div class="card">
+          <h3>Bildirim Merkezi</h3>
+          <p>Yeni → Onaylandı → Ödeme Bekliyor → Ödendi akışı.</p>
+          <div class="tags">
+            <span>KDV</span>
+            <span>Stopaj</span>
+            <span>Geçici Vergi</span>
+            <span>SGK</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Evrak Kütüphanesi</h3>
+          <p>Kilitli zorunlu evrak klasörü ile tek aktif sürüm garantisi.</p>
+          <div class="tags">
+            <span>Vergi Levhası</span>
+            <span>Faaliyet Belgesi</span>
+            <span>İmza Sirküleri</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Çalışan & Kurye Modu</h3>
+          <p>Masraf, avans, mesai ve araç giderleri hızlıca kaydedilir.</p>
+          <div class="tags">
+            <span>Yakıt</span>
+            <span>Park</span>
+            <span>Servis</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ekranlar" class="section">
+      <div class="section-header">
+        <h2>Mobil & Web Ekranları</h2>
+        <p>UI dili tamamen Türkçe, tarih formatı gg.aa.yyyy ve para birimi TL.</p>
+      </div>
+      <div class="grid two">
+        <div class="card">
+          <h3>Mobil Uygulama</h3>
+          <ul>
+            <li>Bildirimler, Dosyalar, Talep oluşturma</li>
+            <li>Zorunlu evrak sürüm güncelleme</li>
+            <li>GİB/SGK WebView yönlendirmesi</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>SMMM Web Paneli</h3>
+          <ul>
+            <li>Firma yönetimi ve toplu bildirim</li>
+            <li>Çalışan/kurye yönetimi</li>
+            <li>Audit log ve evrak yönetimi</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="section-header">
+        <h2>Backend & Güvenlik</h2>
+        <p>RBAC, JWT ve audit log ile uçtan uca güvenlik.</p>
+      </div>
+      <div class="grid four">
+        <div class="stat">
+          <span>Multi-tenant</span>
+          <strong>FirmaId ayrımı</strong>
+        </div>
+        <div class="stat">
+          <span>Depolama</span>
+          <strong>S3 benzeri</strong>
+        </div>
+        <div class="stat">
+          <span>Bildirim</span>
+          <strong>Firebase/APNS</strong>
+        </div>
+        <div class="stat">
+          <span>Güvenlik</span>
+          <strong>Allow-list WebView</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="paketler" class="section">
+      <div class="section-header">
+        <h2>Paketler & Faturalama</h2>
+        <p>Kurye modülü işletme paketinden bağımsızdır.</p>
+      </div>
+      <div class="grid three">
+        <div class="pricing">
+          <h3>1–3 Çalışan</h3>
+          <p class="price">399 TL / ay</p>
+          <ul>
+            <li>Bildirim merkezi</li>
+            <li>Evrak kütüphanesi</li>
+            <li>Audit log</li>
+          </ul>
+        </div>
+        <div class="pricing highlight">
+          <h3>4–7 Çalışan</h3>
+          <p class="price">699 TL / ay</p>
+          <ul>
+            <li>Toplu bildirim</li>
+            <li>Çalışan & kurye modülü</li>
+            <li>Gelişmiş yetkilendirme</li>
+          </ul>
+        </div>
+        <div class="pricing">
+          <h3>8–15 Çalışan</h3>
+          <p class="price">999 TL / ay</p>
+          <ul>
+            <li>Öncelikli destek</li>
+            <li>Özel raporlama</li>
+            <li>İşletme yetkili rolleri</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pricing-note">
+        Kurye modu: Kurye başına 299 TL / ay (5 kurye = 5 × 299 TL)
+      </div>
+    </section>
+
+    <section id="demo" class="section alt">
+      <div class="section-header">
+        <h2>Örnek Demo Akışları</h2>
+        <p>Örnek senaryolar MVP kriterlerini karşılar.</p>
+      </div>
+      <div class="grid two">
+        <div class="timeline">
+          <h3>KDV Bildirimi</h3>
+          <ol>
+            <li>SMMM “KDV Tahakkuk” bildirimi oluşturur.</li>
+            <li>İşletme bildirimi onaylar ve audit log oluşur.</li>
+            <li>“Ödeme Yap” ile GİB WebView açılır.</li>
+            <li>Ödeme sonrası işletme “Ödendi” işaretler.</li>
+          </ol>
+        </div>
+        <div class="timeline">
+          <h3>Kurye Yakıt Gideri</h3>
+          <ol>
+            <li>Kurye yakıt fişi fotoğrafını yükler.</li>
+            <li>İşletme onaylar, ardından ödendi kapanışı yapar.</li>
+            <li>Audit log’da tüm aksiyonlar görünür.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Veri Modeli (Özet)</h2>
+        <p>Firma, kullanıcı, bildirim ve evrak kayıtları standart durum seti ile yönetilir.</p>
+      </div>
+      <div class="grid three">
+        <div class="card">
+          <h3>Temel Tablolar</h3>
+          <ul>
+            <li>Firmalar</li>
+            <li>Kullanıcılar</li>
+            <li>Roller / Yetkiler</li>
+            <li>Çalışanlar</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Bildirim & Evrak</h3>
+          <ul>
+            <li>Bildirimler</li>
+            <li>BildirimDurumGeçmişi</li>
+            <li>EvrakKlasörleri</li>
+            <li>Evraklar</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Talepler & Log</h3>
+          <ul>
+            <li>Talepler</li>
+            <li>TalepDurumGeçmişi</li>
+            <li>SistemLogları</li>
+            <li>Abonelikler</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <strong>FLOW</strong>
+        <p>Vergi ve operasyonel süreçlerinize tek panelden hâkim olun.</p>
+      </div>
+      <div>
+        <h4>İletişim</h4>
+        <p>info@flow.com</p>
+        <p>+90 850 000 00 00</p>
+      </div>
+      <div>
+        <h4>Güvenlik</h4>
+        <p>KVKK uyumlu veri yönetimi</p>
+        <p>Şifreli cihaz saklama</p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
